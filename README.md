@@ -1,7 +1,3 @@
-<div align="center">
-    <img src="assets/mark_bello.jgp" alt="Logo" width='200px' height='200px'/>
-</div>
-
 # Mark Bello's Portfolio and Blog Site
 
 Portfolio and Blog for Mark Bello, Web Designer turned Front-End Developer turned Full-Stack Engineer. Based on a blog starter with Material design in mind for [Gatsby](https://github.com/gatsbyjs/gatsby/).

@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 function GetNavList(config) {
   const NavList = [
     {
-      primaryText: "Home",
+      primaryText: "Mark Bello - Home",
       leftIcon: <FontIcon>home</FontIcon>,
       component: Link,
       to: "/"

@@ -8,17 +8,19 @@ class UserLinks extends Component {
     const { labeled } = this.props;
     return userLinks.map(link => (
       <Button
-        icon={!labeled}
         flat={labeled}
-        secondary
-        key={link.label}
-        iconClassName={link.iconClassName}
         href={link.url}
+        icon={!labeled}
+        iconClassName={link.iconClassName}
+        key={link.label}
+        secondary
+        style={{ color: 'white' }}
       >
         {labeled ? link.label : ""}
       </Button>
     ));
   }
+
   render() {
     const { userLinks } = this.props.config;
     if (!userLinks) {

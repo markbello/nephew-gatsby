@@ -17,7 +17,8 @@ class About extends Component {
               alt={config.userName}
             />
             <CardText>
-              <p className="about-text md-body-1">{config.userDescription}</p>
+              <p className="about-text md-body-1">{config.userDescriptionParagraph1}</p>
+              <p className="about-text md-body-1">{config.userDescriptionParagraph2}</p>
             </CardText>
             <UserLinks labeled config={config} />
           </div>
